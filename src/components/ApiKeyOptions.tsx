@@ -16,7 +16,6 @@ import { Button } from "./ui/Button";
 import { toast } from "./ui/Toast";
 
 interface ApiKeyOptionsProps {
-  // passing of entire object not allowed due to date property not being serializable
   apiKeyKey: string;
 }
 
